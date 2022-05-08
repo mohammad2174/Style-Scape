@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+section .circle{
+    clip-path: circle(70% at right -20%); 
+}
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6em;
+}
+.textBox{
+    position: relative;
+    max-width: 800px;
+    margin-right: 20px;
+} 
+.sci{
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.content .imgBox{
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+.swiper-slide img{
+    position: absolute;
+    bottom: 0;
+    max-height: 80%;
+}
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right{
+    background-image: none;
+}
