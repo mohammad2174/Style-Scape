@@ -21,7 +21,6 @@ section .circle{
 .sci{
     position: absolute;
     bottom: 40px;
-    left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
