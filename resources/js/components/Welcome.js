@@ -62,7 +62,7 @@ function Welcome() {
                         from
                         style scape.</p>
                 </div>
-                <div className="imgBox">
+                <div className="w-28 md:max-w-lg imgBox">
                     <Swiper
                         effect={"coverflow"}
                         grabCursor={true}

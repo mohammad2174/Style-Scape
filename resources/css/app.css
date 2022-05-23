@@ -34,7 +34,6 @@ section .circle{
     justify-content: center;
 }
 .content .imgBox{
-    width: 800px;
     display: flex;
     justify-content: flex-end;
 }

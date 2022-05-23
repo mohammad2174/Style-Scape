@@ -5530,7 +5530,7 @@ function Welcome() {
           children: ["When we talk about style,", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), " we should keep in mind that there is a sense of comfort and freedom", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), "when the style you like and what you wear give you that feeling,", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("br", {}), " ask for beauty, charm and charm from style scape."]
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-        className: "imgBox",
+        className: "w-28 md:max-w-lg imgBox",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(swiper_react__WEBPACK_IMPORTED_MODULE_3__.Swiper, {
           effect: "coverflow",
           grabCursor: true,
